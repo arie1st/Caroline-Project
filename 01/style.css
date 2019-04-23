@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:Tahoma, Geneva, sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix{
+	clear:both;
+	}
+.wrapper{
+	width:960px;
+	margin: 10px auto 0;
+	height:auto
+	}
+.header{
+	width:960px;
+	margin:0 auto;
+}
+.mainmenu{
+	float:left;
+	width: 300px;
+	color:#999;
+	font-size:11px;
+}
+.mainmenu ul,ol {
+	list-style:none;
+}
+.mainmenu li{
+	height:13px;
+}
+.mainmenu li a{
+	color:#666;
+	text-decoration:none;
+}
+.mainmenu li a:hover{
+	color:#AFBD22;
+	text-decoration:none;
+}
+
+.logo{
+	float:right;
+	width:300px;
+	text-align:right;
+}
+
+.headborder{
+	margin-bottom:5px;
+	background-color: #CCCCCC;
+    display: block;
+    float: left;
+    height: 1px;
+    width: 960px;
+}
+.content{
+	width:960px;
+	margin:10px auto 0;	
+}
+.leftcontent{
+	width: 150px;
+	float:left;
+	margin-right:8px;	
+}
+
+.leftcontent ul,ol{
+	list-style:none;
+}
+.leftcontent li{
+	min-height:15px;
+	font-size:11px;
+	color:#666;
+}
+.leftcontent li a{
+	text-decoration:none;
+	color:#666;
+}
+.leftcontent li a:hover{
+	color:#AFBD22;
+	text-decoration:none;
+}
+
+.rightcontent{
+	width:802px;
+	float: left;
+	font-size:11px;
+}
+.portfolio{
+	width:190px;
+	height:180px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float:left;	
+}
+.portfolio a{
+	text-decoration:none !important;
+}
+.companyname{
+	float:left;
+	color:#AFBD22;
+	font-weight:800;
+	font-size:12px;
+	height:20px;
+}
